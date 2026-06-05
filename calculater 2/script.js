@@ -24,7 +24,7 @@ function cal() {
   } else if (oprator === "*") {
     alert(num1 * num2);
   } else {
-    alert("its invalid");
+    alert("it was invalid");
   }
 }
 
