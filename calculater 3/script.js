@@ -17,3 +17,5 @@ function mian(stu) {
 }
 
 mian(stu);
+
+
