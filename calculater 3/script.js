@@ -16,4 +16,5 @@ function mian(stu) {
   alert(sum / stu.length);
 }
 
+
 mian(stu);
