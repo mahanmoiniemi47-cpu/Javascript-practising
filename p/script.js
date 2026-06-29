@@ -514,4 +514,3 @@ let after = lessthan(mydata);
 
 console.log(after);
 
-
