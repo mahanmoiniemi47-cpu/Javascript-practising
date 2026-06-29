@@ -47,11 +47,92 @@ console.log(onlyOwnProps(dataaa));
 
 console.clear();
 
-let exsersize = ["world"];
+// first question
 
-exsersize.shift(1,"Hello")
+let numbers = [12, 7, 25, 18, 30];
 
-console.log(exsersize);
+function finding1(numbers) {
+  return numbers.find(function (n) {
+    return n > 20;
+  });
+}
 
+console.log(finding1(numbers));
 
+let finding2 = function (numbers) {
+  return numbers.find(function (n) {
+    return n > 20;
+  });
+};
 
+let after = finding2(numbers);
+
+console.log(after);
+
+let finding3 = numbers.find((n) => n > 20);
+
+console.log(finding3);
+
+// seconed question
+
+let ages = [14, 17, 20, 15];
+
+function uptoEightTeen1(ages) {
+  return ages.some(function (age) {
+    return age >= 18;
+  });
+}
+
+console.log(uptoEightTeen1(ages));
+
+let uptoEightTeen2 = function (ages) {
+  return ages.some(function (age) {
+    return age >= 18;
+  });
+};
+
+let base = uptoEightTeen2(ages);
+
+console.log(base);
+
+let uptoEightTeen3 = ages.some((age) => age >= 18);
+
+console.log(uptoEightTeen3);
+
+console.log("\n");
+
+// third question
+
+let scores = [85, 90, 78, 92];
+
+let moreThanFifty = scores.every((num) => num > 50);
+
+console.log(moreThanFifty);
+
+// fourth question
+
+let fruits = ["apple", "banana"];
+
+function first_pushing(fruits) {
+  fruits.push("orange");
+  return fruits;
+}
+
+console.log(first_pushing(fruits));
+
+let seconed_pushing = function (fruits) {
+  fruits.push("orange");
+  return fruits;
+};
+
+let pusher = seconed_pushing(fruits);
+
+console.log(pusher);
+
+// fivth question
+
+let colors = ["red", "green", "blue"];
+
+let m= colors.pop()
+
+console.log(m);
