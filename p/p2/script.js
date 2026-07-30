@@ -136,5 +136,3 @@ let colors = ["red", "green", "blue"];
 let m= colors.pop()
 
 console.log(m);
-
-
